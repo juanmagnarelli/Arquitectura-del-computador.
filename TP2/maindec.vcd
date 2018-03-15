@@ -1,0 +1,59 @@
+$date
+  Wed Oct 12 12:10:37 2016
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 6 ! op_p[5:0] $end
+$var reg 1 " memtoreg_p $end
+$var reg 1 # memwrite_p $end
+$var reg 1 $ branch_p $end
+$var reg 1 % alusrc_p $end
+$var reg 1 & regdst_p $end
+$var reg 1 ' regwrite_p $end
+$var reg 1 ( jump_p $end
+$var reg 2 ) aluop_p[1:0] $end
+$scope module maindec_0 $end
+$var reg 6 * op[5:0] $end
+$var reg 1 + memtoreg $end
+$var reg 1 , memwrite $end
+$var reg 1 - branch $end
+$var reg 1 . alusrc $end
+$var reg 1 / regdst $end
+$var reg 1 0 regwrite $end
+$var reg 1 1 jump $end
+$var reg 2 2 aluop[1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b000000 !
+0"
+0#
+0$
+0%
+1&
+1'
+0(
+b10 )
+b000000 *
+0+
+0,
+0-
+0.
+1/
+10
+01
+b10 2
+#5000000
+#10000000
+#15000000
+#20000000
+#25000000
+#30000000
+#35000000
+#40000000
+#45000000
+#50000000

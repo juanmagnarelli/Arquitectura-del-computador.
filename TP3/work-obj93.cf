@@ -1,0 +1,48 @@
+v 3
+file . "mips_tb.vhd" "20161012155025.000" "20161012131443.198":
+  entity mips_tb at 1( 0) + 0 on 102;
+  architecture behav of mips_tb at 8( 101) + 0 on 103;
+file . "signext.vhd" "20161011160355.000" "20161012131443.133":
+  entity signext at 1( 0) + 0 on 98;
+  architecture behavior of signext at 13( 248) + 0 on 99;
+file . "mux2.vhd" "20161011160355.000" "20161012131443.042":
+  entity mux2 at 1( 0) + 0 on 94;
+  architecture behav of mux2 at 15( 332) + 0 on 95;
+file . "maindec.vhd" "20161011160355.000" "20161012131442.934":
+  entity maindec at 1( 0) + 0 on 90;
+  architecture behav of maindec at 19( 499) + 0 on 91;
+file . "flopr.vhd" "20161011160355.000" "20161012131442.857":
+  entity flopr at 1( 0) + 0 on 86;
+  architecture behav of flopr at 15( 344) + 0 on 87;
+file . "datapath.vhd" "20161012161413.000" "20161012131442.711":
+  entity datapath at 1( 0) + 0 on 82;
+  architecture behav of datapath at 22( 380) + 0 on 83;
+file . "components.vhd" "20161012152011.000" "20161012131442.646":
+  package components at 1( 0) + 0 on 79;
+file . "aludec.vhd" "20161011160355.000" "20161012131442.538":
+  entity aludec at 1( 0) + 0 on 75;
+  architecture behav of aludec at 14( 306) + 0 on 76;
+file . "adder.vhd" "20161012135836.000" "20161012131442.505":
+  entity adder at 1( 0) + 0 on 73;
+  architecture behav of adder at 12( 199) + 0 on 74;
+file . "alu.vhd" "20161011160355.000" "20161012131442.577":
+  entity alu at 1( 0) + 0 on 77;
+  architecture behavior of alu at 16( 447) + 0 on 78;
+file . "controller.vhd" "20161011160355.000" "20161012131442.677":
+  entity controller at 1( 0) + 0 on 80;
+  architecture behav of controller at 21( 586) + 0 on 81;
+file . "dmem.vhd" "20161011160355.000" "20161012131442.807":
+  entity dmem at 21( 821) + 0 on 84;
+  architecture behave of dmem at 37( 1154) + 0 on 85;
+file . "imem.vhd" "20161011160355.000" "20161012131442.891":
+  entity imem at 21( 819) + 0 on 88;
+  architecture behave of imem at 34( 1087) + 0 on 89;
+file . "mips.vhd" "20161011160355.000" "20161012131443.000":
+  entity mips at 1( 0) + 0 on 92;
+  architecture behav of mips at 15( 304) + 0 on 93;
+file . "regfile.vhd" "20161012153223.000" "20161012131443.076":
+  entity regfile at 1( 0) + 0 on 96;
+  architecture behav of regfile at 18( 494) + 0 on 97;
+file . "sl2.vhd" "20161011160914.000" "20161012131443.167":
+  entity sl2 at 1( 0) + 0 on 100;
+  architecture shift_1 of sl2 at 12( 186) + 0 on 101;

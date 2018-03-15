@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity signext_tb is
+end entity;
+
+architecture TB of signext_tb is
+    constant width : integer := 32;
+component signext is
+        port (
+              y      :out std_logic_vector( width-1 downto 0);
+              a      :in  std_logic_vector( 15 downto 0)
+              );
+end component;
+
+signal y_prima: std_logic_vector( width-1 downto 0);
+signal a_prima: std_logic_vector( 15 downto 0);
+
+begin
+
+signext_0: signext port map (a=>a_prima, y=>y_prima);
+
+  process
+  begin
+
+    a_prima <= "0010101010101010";
+
+    wait for 1 ns;
+
+    end process;
+ end;    
